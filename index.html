@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff2f7">
+  <meta name="description" content="A little birthday surprise made with love for Varshini (Boori).">
+  <title>For Varshini (Boori) ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="sparkle-layer" id="sparkleLayer" aria-hidden="true"></div>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="wordmark" href="#" aria-label="Birthday surprise home"><span class="wordmark-icon">✦</span> little moments</a>
+      <div class="progress-wrap" aria-label="Journey progress"><span id="progressText">01 / 05</span><div class="progress-track"><span id="progressBar"></span></div></div>
+    </header>
+
+    <section class="screen active" data-screen="0" aria-labelledby="introTitle">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A tiny corner of the internet, just for you</p>
+          <h1 id="introTitle">Hey, <em>Varshini</em><br><span class="soft-title">(Boori)</span></h1>
+          <p class="lead">Someone thought you deserved more than just a birthday text. So, here’s a little something made just for you. 💗</p>
+          <button class="primary-btn" data-next>Open your surprise <span aria-hidden="true">↗</span></button>
+          <p class="micro-note">Made with a little extra love <span>♡</span></p>
+        </div>
+        <div class="hero-art">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="photo-frame hero-photo">
+            <img src="assets/photos/photo-1.jpg" alt="Add your favorite photo of Varshini" onerror="this.style.display='none';this.parentElement.classList.add('placeholder-photo')">
+            <div class="photo-placeholder"><span>YOUR<br>FAVORITE<br>PHOTO</span><small>Replace photo-1.jpg</small></div>
+            <span class="photo-sticker">for you ♡</span>
+          </div>
+          <span class="floating-heart heart-a">♥</span><span class="floating-heart heart-b">♡</span><span class="floating-star star-a">✦</span><span class="floating-star star-b">✧</span>
+          <div class="mini-note">a day as lovely<br>as you are <span>✿</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" data-screen="1" aria-labelledby="memoriesTitle">
+      <div class="section-heading">
+        <p class="eyebrow">01 — THE LITTLE THINGS</p>
+        <h2 id="memoriesTitle">A few moments,<br><em>a thousand feelings.</em></h2>
+        <p class="section-intro">Some memories deserve their own little gallery. Add your favorite pictures and let them do the talking.</p>
+      </div>
+      <div class="memory-grid">
+        <figure class="memory-card memory-tall tilt-left"><div class="memory-image"><img src="assets/photos/photo-2.jpg" alt="A favorite memory" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')"><span class="image-hint">Add photo-2.jpg</span></div><figcaption><span>the candid one</span><b>♡</b></figcaption></figure>
+        <figure class="memory-card memory-offset tilt-right"><div class="memory-image"><img src="assets/photos/photo-3.jpg" alt="A happy memory" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')"><span class="image-hint">Add photo-3.jpg</span></div><figcaption><span>that happy day</span><b>✦</b></figcaption></figure>
+        <figure class="memory-card memory-small tilt-left"><div class="memory-image"><img src="assets/photos/photo-4.jpg" alt="A special memory" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')"><span class="image-hint">Add photo-4.jpg</span></div><figcaption><span>one for keeps</span><b>♡</b></figcaption></figure>
+        <figure class="memory-card memory-small tilt-right"><div class="memory-image"><img src="assets/photos/photo-5.jpg" alt="One more favorite memory" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')"><span class="image-hint">Add photo-5.jpg</span></div><figcaption><span>another little memory</span><b>✦</b></figcaption></figure>
+      </div>
+      <div class="center-actions"><button class="primary-btn" data-next>Keep going <span>→</span></button></div>
+    </section>
+
+    <section class="screen" data-screen="2" aria-labelledby="reasonsTitle">
+      <div class="section-heading">
+        <p class="eyebrow">02 — A LITTLE REMINDER</p>
+        <h2 id="reasonsTitle">Things that make<br><em>you, you.</em></h2>
+        <p class="section-intro">Tap each card. Just a few reminders of the lovely energy you bring into the world.</p>
+      </div>
+      <div class="reason-grid">
+        <button class="reason-card" aria-expanded="false"><span class="reason-icon">☼</span><span class="reason-title">Your sunshine</span><span class="reason-hidden">You can make an ordinary day feel a little brighter.</span><span class="tap-hint">tap to reveal ↗</span></button>
+        <button class="reason-card" aria-expanded="false"><span class="reason-icon">♡</span><span class="reason-title">Your big heart</span><span class="reason-hidden">The care you show people means more than you know.</span><span class="tap-hint">tap to reveal ↗</span></button>
+        <button class="reason-card" aria-expanded="false"><span class="reason-icon">✧</span><span class="reason-title">Your own magic</span><span class="reason-hidden">There’s nobody else quite like you, Boori. Never forget that.</span><span class="tap-hint">tap to reveal ↗</span></button>
+      </div>
+      <div class="center-actions"><button class="primary-btn" data-next>One more thing <span>→</span></button></div>
+    </section>
+
+    <section class="screen cake-screen" data-screen="3" aria-labelledby="wishTitle">
+      <div class="section-heading">
+        <p class="eyebrow">03 — MAKE A WISH</p>
+        <h2 id="wishTitle">A wish for <em>your new year.</em></h2>
+        <p class="section-intro">Take a breath, make a wish, then blow out the candles by tapping the cake.</p>
+      </div>
+      <button class="cake-button" id="cakeButton" aria-label="Blow out the birthday candles">
+        <div class="cake-plate"></div>
+        <div class="cake-base"><div class="icing"></div><div class="sprinkle s1"></div><div class="sprinkle s2"></div><div class="sprinkle s3"></div><div class="sprinkle s4"></div></div>
+        <div class="candle candle-one"><span class="flame"></span></div><div class="candle candle-two"><span class="flame"></span></div><div class="candle candle-three"><span class="flame"></span></div>
+        <span class="cake-label">make a wish</span>
+      </button>
+      <p class="cake-hint" id="cakeHint">Tap the cake when you’re ready ✨</p>
+      <div class="wish-message" id="wishMessage" hidden>May this year bring you soft days, brave dreams, genuine laughter, and all the love you deserve. <span>♡</span></div>
+      <div class="center-actions"><button class="primary-btn" data-next>Read your note <span>→</span></button></div>
+    </section>
+
+    <section class="screen letter-screen" data-screen="4" aria-labelledby="letterTitle">
+      <div class="letter-card">
+        <div class="letter-top"><span>✦ A NOTE FOR YOU</span><span>WITH LOVE, ALWAYS</span></div>
+        <div class="letter-flower">✿</div>
+        <h2 id="letterTitle">Happy Birthday,<br><em>Varshini (Boori)!</em></h2>
+        <div class="letter-body">
+          <p>I hope this new chapter brings you beautiful surprises, peaceful moments, people who choose you wholeheartedly, and reasons to smile when you least expect them.</p>
+          <p>Keep being your wonderfully unique self. I hope you get closer to the dreams you carry quietly, laugh until your cheeks hurt, and always remember how special you are.</p>
+          <p class="letter-signoff">Today is all about you. Enjoy every little bit of it. <span>♡</span></p>
+        </div>
+        <div class="letter-footer">A little birthday page, made just for you <span>✧</span></div>
+      </div>
+      <div class="final-actions"><button class="secondary-btn" id="replayButton">↻ Start the journey again</button><button class="primary-btn" id="confettiButton">Celebrate one more time <span>✦</span></button></div>
+    </section>
+
+    <footer class="site-footer"><span>made with <b>♡</b> for Varshini</span><span>YOUR DAY · YOUR MAGIC</span></footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
