@@ -11,7 +11,7 @@ A responsive, animated birthday website built with plain HTML, CSS, and JavaScri
 
 ## Add your photos
 
-Copy your pictures into `assets/photos/` and name them exactly:
+The five personal photos are included beside `index.html` at the repository root. Keep the filenames exactly as shown:
 
 1. `photo-1.jpg` — cover photo (your first uploaded image)
 2. `photo-2.jpg` — memory card 1
@@ -47,7 +47,7 @@ No installation is required.
 1. Open your new repository.
 2. Click **Add file → Upload files**.
 3. Open the unzipped `birthday-surprise` folder on your computer.
-4. Drag in `index.html`, `style.css`, `script.js`, `README.md`, and the `assets` folder. Make sure `index.html` is at the repository root, not inside another nested `birthday-surprise` folder.
+4. Drag in `index.html`, `style.css`, `script.js`, `README.md`, and the `photo-1.jpg` through `photo-5.jpg`. Make sure `index.html` is at the repository root, not inside another nested `birthday-surprise` folder.
 5. Add a commit message such as `Add birthday website`.
 6. Click **Commit changes**.
 
